@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>MR Frontend Developer Technical Test</title>
+
+    <script src="https://kit.fontawesome.com/549b49cbe1.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav_links">
+          <li class="nav_item">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart_text"></span>
+            <span id="number__items"></span>
+          </li>
+        </ul>
+      </nav>
+
+    <div id="content_container">
+      <section id="image_container">
+        <img
+          src="img/classic-tee.jpg"
+          class="product_img"
+          alt="Classic Tee"
+          height="600"
+        />
+      </section>
+
+      <section id="content">
+        <h1 class="classic_tee">Classic Tee</h1>
+
+        <h3 class="price">$75.00</h3>
+
+        <p class="tee_description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged..
+        </p>
+
+        <p class="size">SIZE
+          <span class="star">*</span>
+          <span class="size_show"></span>
+        </p>
+
+        <button id="btn_small" class="btn">S</button>
+        <button id="btn_medium" class="btn">M</button>
+        <button id="btn_large" class="btn">L</button>
+
+        <div id="btn_cart_container">
+        <button id="btn_cart" class="btn">ADD TO CART</button>
+      </div>
+      </section>
+    </div>
+  </body>
+</html>

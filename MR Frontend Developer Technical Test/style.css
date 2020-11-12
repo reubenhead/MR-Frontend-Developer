@@ -1,0 +1,156 @@
+@import url('http://fonts.cdnfonts.com/css/inv-maison-neue');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Maison Neue', sans-serif;
+  font-weight: 300;
+  color: #888888;
+  line-height: 1.8;
+  background-color: #fff;
+}
+
+/* NAVIGATION */
+.nav {
+  background-color: #f6f6f7;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+}
+
+.nav_item {
+  margin-left: 80vw;
+}
+
+/* CONTENT */
+#content_container {
+  padding: 0 1rem 0 1rem;
+}
+
+#image_container {
+}
+
+#content {
+  width: 80vw;
+}
+
+.classic_tee {
+  font-size: 1.5rem;
+  font-style: normal;
+  color: #222222;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  color: #222222;
+  margin-bottom: 1.5rem;
+}
+
+.tee_description {
+  margin-bottom: 1.5rem;
+  width: 70%;
+  width: 90vw;
+}
+
+.size {
+  font-weight: bold;
+}
+
+.star {
+  color: #c90000;
+}
+
+/* BUTTONS */
+.btn {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: 2px solid#888888;
+  padding: 01rem 1.2rem;
+  cursor: pointer;
+  color: #888888;
+  background-color: #fff;
+}
+
+#btn_cart_container {
+  margin-bottom: 2rem;
+}
+
+#btn_cart {
+  color: #222222;
+  font-weight: bold;
+  font-style: bold;
+  border: 2px solid #222222;
+}
+
+#btn_cart:hover {
+  color: #fff;
+  background-color: #222222;
+  font-weight: bold;
+  font-style: bold;
+  border: 2px solid #222222;
+  transition: 0.2s;
+}
+
+/* CLASSES TO BE ADDED IN JS */
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.add-border {
+  border: 2px solid #222222;
+}
+
+/* FONT AWESOME */
+.fas {
+  color: #888888;
+  font-size: 1rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #content_container {
+    display: flex;
+    padding: 0 1rem 0 1rem;
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  #image_container {
+    padding-right: 100px;
+  }
+
+  .classic_tee {
+    margin-top: 0rem;
+  }
+
+  .tee_description {
+    width: 100%;
+  }
+
+  .price {
+    border-top: 0.1px solid rgba(204, 204, 204, 0.2);
+    border-bottom: 0.1px solid rgba(204, 204, 204, 0.2);
+    width: 60%;
+  }
+}
